@@ -1,5 +1,5 @@
 # OverscrollScale
-ListView overscroll scale
+ListView overscroll scale - Stretching listview without touch visibility
 
 Original Author: Dodola
 
