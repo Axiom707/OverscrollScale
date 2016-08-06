@@ -10,7 +10,7 @@ import android.view.animation.Interpolator;
 
 public class ListViewEnhance {
     private static final String TAG = ListViewEnhance.class.getName();
-
+    
     public static class BackEaseOutInterpolater implements Interpolator {
         public float overshot = 0.0f;
 
