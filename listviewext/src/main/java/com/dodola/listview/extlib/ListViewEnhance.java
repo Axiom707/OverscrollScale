@@ -75,7 +75,7 @@ public class ListViewEnhance {
                 setListScale(listView, canvas, listView.mInertia, false);
                 listView.mScaleYDirty = false;
             }
-        } else if (isScrollAtEdge(listView, listView.mInertia)) {
+        } else if (isScrollAtEdge(listView, listView.mInertia) || listView.getScaleY() != 1) {
             setListScale(listView, canvas, listView.mInertia, true);
             listView.mInertia = 0;
         } else {
