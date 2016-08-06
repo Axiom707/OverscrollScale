@@ -56,7 +56,7 @@ public class ListViewEnhance {
         }
 
         boolean needScale = (listView.mInertia != 0) && atEdge;
-//        Log.d(TAG, "offset=" + offset + ",listView.mOffsetY:" + listView.mOffsetY + ",listView.mInertia:" + listView.mInertia + ",atEdge:" + atEdge);
+        //Log.d(TAG, "offset=" + offset + ",listView.mOffsetY:" + listView.mOffsetY + ",listView.mInertia:" + listView.mInertia + ",atEdge:" + atEdge);
         return needScale;
     }
 
