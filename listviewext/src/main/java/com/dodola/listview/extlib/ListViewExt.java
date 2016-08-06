@@ -91,7 +91,6 @@ public class ListViewExt extends ListView {
 
                 if (ListViewEnhance.needListScale(this, offset)) {
                     this.mLastY = y;
-                    return true;
                 } else {
                     if (y != this.mLastY) {
                         this.mLastY = y;
