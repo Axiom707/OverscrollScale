@@ -1,25 +1,13 @@
 # OverscrollScale
-ListView overscroll scale - Stretching listview without touch visibility
+ListView overscroll scale - Stretchable listview without touch visibility
 
 Original Author: Dodola
 
 Modifications: Piyush Shrivastava
 
-##ScreenShot
-![](gif/demo.gif)
-
 ##Use
 
-```groovy
-repositories {
-    maven {
-        url  "http://dl.bintray.com/dodola/maven"
-    }
-}
-dependencies {
-    compile 'com.dodola:listviewext:1.0'
-}
-
+Copy the project into Android Studio and replace the ListView in the XML file with ListViewExt:
 ```
 
 ```xml
