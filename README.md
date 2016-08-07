@@ -1,7 +1,7 @@
 # OverscrollScale
 ListView overscroll scale - Stretchable listview without touch visibility
 
-Original Author: Dodola
+Original Author: [Dodola](https://github.com/dodola/OverscrollScale)
 
 Modifications: Piyush Shrivastava
 
